@@ -4,8 +4,53 @@ I'm Wyatt Pearsall, I work in the bathymetry section here at NCRO....
 
 This is a talk about building GIS web apps, so let's step back and see survey the landscape a bit.
 
+why web apps. Novelty aside
 
-- problem, solution.. why build a web app... bathy case study
+structure of web app, lite, lite how a browser works (talk a bit about plugins and why they stink)
+What's a service, anyway!? (redux)
+
+At DWR, 3 supported options, each of which uses this paradigm. make the case for service-backed custom apps.
+  there are use cases for AGOL/Portal, but cost/customization is an issue.
+  although more expertise and more time for service-backed, work it. easier to manage, easy to customize,
+  don't end up dependent on esri for features or hacking in your own solutions.
+
+Lucky for you, templates. Way to make custom apps easier, faster, while still being easy to customize.
+
+Let's see this in action:
+
+publish some services!
+
+  analyze fix some errors. Talk about sources/servers! Data is registered.
+  publish service from enterprise geodatabase?
+  talk about the choices to make (defaults okayish)
+
+  check out the html rest endpoint, tie it in to the point eariler about what a service is
+  But what can we do with these?
+
+  Let's plop them into some templates! And make apps right now.
+
+Template demooo. open the code editor. Talk about servers (location & web server vs. a GIS server, etc.)
+
+Do a slight run through the code. / structure. Show the html, css, js.
+
+Do a check layer!
+Do a dropdown layer!
+
+Do multiple check layers!
+
+So it can be easy as that.... case study.
+
+
+- problem, solution.. why build a web app... something we take for granted
   -share data easier, make data more discoverable, interact easily
 
-I bring this up now because, in order to build an effective web application, its purpose needs to be very clear. The reason for this is twofold: first, it allows you to reason about application design. What layers should you include, what tools and capabilities. Only if your application has a clear purpose, will you be able to answer these questions properly. Secondly
+I bring this up now because, in order to build an effective web application, its purpose needs to be very clear. The reason for this is twofold:
+
+first, it allows you to reason about application design. What layers should you include, what tools and capabilities. Only if your application has a clear purpose, will you be able to answer these questions properly.
+
+Secondly, it helps you pinpoint the business-case for the application. Saves work, makes data more valuable by helping people interact / understand. These things are what your supervisor and branch chief care about. Making the case well will allow you to spend more time making your application better.
+
+Here'ssss the github link, talk about training as well.
+
+Questions
+
