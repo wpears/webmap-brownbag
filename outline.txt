@@ -2,11 +2,20 @@ I'm Wyatt Pearsall, I work in the bathymetry section here at NCRO....
 
 ... was going to talk about some apps I built, but instead let's just dive right in and you'll have to trust that I'm not making this up as I go along.
 
-This is a talk about building GIS web apps, so let's step back and see survey the landscape a bit.
 
-why web apps. Novelty aside
+Why web apps.
+Novelty aside
 
-structure of web app, lite, lite how a browser works (talk a bit about plugins and why they stink)
+
+How web map application work
+  Application that runs in your browser, gets data from services
+
+Browser 101
+  HTML documents that define structure of a page
+  CSS Cascading Style Sheets, turn SLIDE into SLIDE
+
+What about plugins?
+
 What's a service, anyway!? (redux)
 
 At DWR, 3 supported options, each of which uses this paradigm. make the case for service-backed custom apps.
