@@ -1,6 +1,6 @@
 I'm Wyatt Pearsall, I work in the bathymetry section here at NCRO....
 
-... was going to talk about some apps I built, but instead let's just dive right in and you'll have to trust that I'm making this up as I go along.
+... was going to talk about some apps I built, but instead let's just dive right in and you'll have to trust that I'm not making this up as I go along.
 
 This is a talk about building GIS web apps, so let's step back and see survey the landscape a bit.
 
