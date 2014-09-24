@@ -8,7 +8,7 @@ Novelty aside
 
 
 How web map application work
-  Application that runs in your browser, gets data from services
+  Application that runs in your browser, gets data from services on the server
 
 Browser 101
   HTML documents that define structure of a page
@@ -16,21 +16,35 @@ Browser 101
 
 What about plugins?
 
-What's a service, anyway!? (redux)
+What is a server, what does it do
+  A program on a computer that accepts requests and returns responses
+  web server example -> when you google you send a request with some parameters,
+  google's web server receives this processes your data, and responds with a page listing results
+
+  this is similar to how one interacts with the arcgis server you interact with sevices through their URL's,
+  and a program on the computer where our server is housed interprets your request (map image, query) and gives you back the appropriate response. we'll see more of this later
+
+So that's how web maps work, now we'll talk about how to build them.
 
 At DWR, 3 supported options, each of which uses this paradigm. make the case for service-backed custom apps.
-  there are use cases for AGOL/Portal, but cost/customization is an issue.
-  although more expertise and more time for service-backed, work it. easier to manage, easy to customize,
-  don't end up dependent on esri for features or hacking in your own solutions.
+
+  Making a GIS web app at DWR means you will likely be using AGOL, Portal, or handwriting an app.
+  AGOL and Portal make it fairly easy to throw some data on the web and have a functional map in under an hour, however there are some drawbacks:
+    Harder to customize, more limited in features. If you get to the end of what you can do, its easy to feel stuck.. somewhat large hurdle to cross to start customizing.
+    Cost. Credits / seats.
+      because of this AGOL and Portal are somewhat in hiatus
+
+  That leaves us with custom apps.
+    Although more expertise and more time, worth it. Easier to manage, easy to customize,
+  don't end up as dependent on esri for features or hacking in your own solutions.
+  
 
 Lucky for you, templates. Way to make custom apps easier, faster, while still being easy to customize.
 
 Let's see this in action:
 
 publish some services!
-
   analyze fix some errors. Talk about sources/servers! Data is registered.
-  publish service from enterprise geodatabase?
   talk about the choices to make (defaults okayish)
 
   check out the html rest endpoint, tie it in to the point eariler about what a service is
