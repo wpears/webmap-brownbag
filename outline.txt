@@ -3,7 +3,7 @@ I'm Wyatt Pearsall, I work in the bathymetry section here at NCRO....
 ... was going to talk about some apps I built, but instead let's just dive right in and you'll have to trust that I'm not making this up as I go along.
 
 
-Why web apps.
+Why web apps. 
 Novelty aside
 
 
@@ -29,6 +29,8 @@ So that's how web maps work, now we'll talk about how to build them.
 At DWR, 3 supported options, each of which uses this paradigm. make the case for service-backed custom apps.
 
   Making a GIS web app at DWR means you will likely be using AGOL, Portal, or handwriting an app.
+    - There are other things, open source GIS and web mapping solutions (more for trailblazers)
+
   AGOL and Portal make it fairly easy to throw some data on the web and have a functional map in under an hour, however there are some drawbacks:
     Harder to customize, more limited in features. If you get to the end of what you can do, its easy to feel stuck.. somewhat large hurdle to cross to start customizing.
     Cost. Credits / seats.
