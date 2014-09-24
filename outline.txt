@@ -3,8 +3,13 @@ I'm Wyatt Pearsall, I work in the bathymetry section here at NCRO....
 ... was going to talk about some apps I built, but instead let's just dive right in and you'll have to trust that I'm not making this up as I go along.
 
 
-Why web apps. 
-Novelty aside
+Why web apps.
+You hear a lot about web apps, like you hear a lot about the cloud.. maybe a bit too much.
+
+But really, web apps are a great way to share data
+  interactivity get your hands on the data before downloading (or never downloading) spatial data is more discoverable, metadata can be first class part of the app
+  visualization, see interesting animations, highlight important information
+  Audience, everyone with a computer has a web browser. Browsers are free. Knows how to use a web browser.
 
 
 How web map application work
