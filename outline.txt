@@ -7,17 +7,24 @@ Why web apps.
 You hear a lot about web apps, like you hear a lot about the cloud.. maybe a bit too much.
 
 But really, web apps are a great way to share data
-  interactivity get your hands on the data before downloading (or never downloading) spatial data is more discoverable, metadata can be first class part of the app
+  interactivity get your hands on the data before downloading (or never downloading) spatial data is more discoverable, metadata can be first class part of the app, people are more engaged, interested
+
   visualization, see interesting animations, highlight important information
-  Audience, everyone with a computer has a web browser. Browsers are free. Knows how to use a web browser.
+
+  Audience, everyone with a computer has a web browser. Knows how to use a web browser. Browsers are free. 
 
 
-How web map application work
+
+
+
+How web map applications work
   Application that runs in your browser, gets data from services on the server
+
 
 Browser 101
   HTML documents that define structure of a page
   CSS Cascading Style Sheets, turn SLIDE into SLIDE
+  JS what makes your app an app. Request data, move the map/zoom, create new bits of HTML
 
 What about plugins?
 
@@ -28,6 +35,10 @@ What is a server, what does it do
 
   this is similar to how one interacts with the arcgis server you interact with sevices through their URL's,
   and a program on the computer where our server is housed interprets your request (map image, query) and gives you back the appropriate response. we'll see more of this later
+
+
+
+
 
 So that's how web maps work, now we'll talk about how to build them.
 
@@ -47,6 +58,10 @@ At DWR, 3 supported options, each of which uses this paradigm. make the case for
   
 
 Lucky for you, templates. Way to make custom apps easier, faster, while still being easy to customize.
+
+
+
+
 
 Let's see this in action:
 
@@ -68,19 +83,33 @@ Do a dropdown layer!
 
 Do multiple check layers!
 
-So it can be easy as that.... case study.
 
+
+The workflow:
+
+Join the ArcGIS Server Cadre!
+
+Put your data and map in a folder under \\nasgisnp\entgis\cadre
+Connect to the GIS Server http://darcgis.water.ca.gov/arcgis as a publisher and share your map as a service.
+Analyze your map, respond to errors/warnings
+
+
+
+So it can be easy as that.... case study.
 
 - problem, solution.. why build a web app... something we take for granted
   -share data easier, make data more discoverable, interact easily
-
 I bring this up now because, in order to build an effective web application, its purpose needs to be very clear. The reason for this is twofold:
 
 first, it allows you to reason about application design. What layers should you include, what tools and capabilities. Only if your application has a clear purpose, will you be able to answer these questions properly.
 
 Secondly, it helps you pinpoint the business-case for the application. Saves work, makes data more valuable by helping people interact / understand. These things are what your supervisor and branch chief care about. Making the case well will allow you to spend more time making your application better.
 
-Here'ssss the github link, talk about training as well.
+
+
+Training as well.
+Here'ssss the github link,
+
 
 Questions
 
