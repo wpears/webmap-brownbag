@@ -89,9 +89,17 @@ The workflow:
 
 Join the ArcGIS Server Cadre!
 
+Service:
 Put your data and map in a folder under \\nasgisnp\entgis\cadre
 Connect to the GIS Server http://darcgis.water.ca.gov/arcgis as a publisher and share your map as a service.
-Analyze your map, respond to errors/warnings
+Analyze your map, respond to errors/warnings, tweak your service properties (ok to accept defaults), publish
+Your service will be at https://darcgis.water.ca.gov/arcgis/rest/services/<folder name>/<service name>/MapServer
+
+App:
+Make a folder for your app at \\mrsbmapp21161\giswebapps
+Create an HTML file named index.html
+This file is accessible at http://darcgis.water.ca.gov/app/<your folder's name>
+
 
 
 
