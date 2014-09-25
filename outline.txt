@@ -24,20 +24,24 @@ How web map applications work
 Browser 101
   HTML documents that define structure of a page
   CSS Cascading Style Sheets, turn SLIDE into SLIDE
-  JS what makes your app an app. Request data, move the map/zoom, create new bits of HTML
+  JS what makes your app an app.
+     Interactivity
+     Create new HTML elements
+     In a map: arrange layers, move the map/zoom, query data
 
 What about plugins?
+  Plugins live in <object> or <embed> HTML elements and they are managed separately from the browser.
+  with their own programming languages 
+
 
 What is a server, what does it do
   A program on a computer that accepts requests and returns responses
   web server example -> when you google you send a request with some parameters,
   google's web server receives this processes your data, and responds with a page listing results
-
+  //pictures of the requests and responses
   this is similar to how one interacts with the arcgis server you interact with sevices through their URL's,
   and a program on the computer where our server is housed interprets your request (map image, query) and gives you back the appropriate response. we'll see more of this later
-
-
-
+  //picture of map image 
 
 
 So that's how web maps work, now we'll talk about how to build them.
@@ -46,19 +50,16 @@ At DWR, 3 supported options, each of which uses this paradigm. make the case for
 
   Making a GIS web app at DWR means you will likely be using AGOL, Portal, or handwriting an app.
     - There are other things, open source GIS and web mapping solutions (more for trailblazers)
-
+//token AGOL pic
   AGOL and Portal make it fairly easy to throw some data on the web and have a functional map in under an hour, however there are some drawbacks:
     Harder to customize, more limited in features. If you get to the end of what you can do, its easy to feel stuck.. somewhat large hurdle to cross to start customizing.
     Cost. Credits / seats.
       because of this AGOL and Portal are somewhat in hiatus
-
+//AGOL costs pic "free" pic
   That leaves us with custom apps.
     Although more expertise and more time, worth it. Easier to manage, easy to customize,
   don't end up as dependent on esri for features or hacking in your own solutions.
-  
-
-Lucky for you, templates. Way to make custom apps easier, faster, while still being easy to customize.
-
+  Lucky for you, templates. Way to make custom apps easier, faster, while still being easy to customize.
 
 
 
@@ -66,24 +67,29 @@ Lucky for you, templates. Way to make custom apps easier, faster, while still be
 Let's see this in action:
 
 publish some services!
-  analyze fix some errors. Talk about sources/servers! Data is registered.
+  Talk about sources/servers!
+  
+  publish the default boundaries map
   talk about the choices to make (defaults okayish)
-
   check out the html rest endpoint, tie it in to the point eariler about what a service is
-  But what can we do with these?
+   
+Let's plop them into a template to see how it functions
 
-  Let's plop them into some templates! And make apps right now.
-
-Template demooo. open the code editor. Talk about servers (location & web server vs. a GIS server, etc.)
+Template demo.
+open the code editor.
+Running locally, talk about what a server is.
+Talk about giswebapps and how app server and gis server are separate
 
 Do a slight run through the code. / structure. Show the html, css, js.
 
+
 Do a check layer!
-Do a dropdown layer!
-
 Do multiple check layers!
+Add titles
 
-
+Show that naive boundaries are slowish, slower than GIC
+republish new map
+show the difference
 
 The workflow:
 
@@ -100,20 +106,23 @@ Make a folder for your app at \\mrsbmapp21161\giswebapps
 Create an HTML file named index.html
 This file is accessible at http://darcgis.water.ca.gov/app/<your folder's name>
 
+Experiment within reason, you are in a development environment.
+When it's time to go public, a ArcGIS Server admin (me) will work with you to push
+it to production.
 
 
+Simple app, but can do interesting things.. made with little effort
 
-So it can be easy as that.... case study.
 
-- problem, solution.. why build a web app... something we take for granted
-  -share data easier, make data more discoverable, interact easily
+Application Purpose
 I bring this up now because, in order to build an effective web application, its purpose needs to be very clear. The reason for this is twofold:
 
 first, it allows you to reason about application design. What layers should you include, what tools and capabilities. Only if your application has a clear purpose, will you be able to answer these questions properly.
 
 Secondly, it helps you pinpoint the business-case for the application. Saves work, makes data more valuable by helping people interact / understand. These things are what your supervisor and branch chief care about. Making the case well will allow you to spend more time making your application better.
 
-
+bath catalog
+-share data easier, make data more discoverable, interact easily
 
 Training as well.
 Here'ssss the github link,
